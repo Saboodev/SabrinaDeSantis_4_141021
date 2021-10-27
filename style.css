@@ -701,7 +701,7 @@ p {
     font-weight: 700;
 }
 
-#text_introduction {
+.text-introduction-section {
     font-size: 22px;
     margin: auto 1rem;
     padding: 0 1rem;
