@@ -121,7 +121,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -136,7 +136,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
-}
+}*/
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -759,6 +759,17 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.text_footer {
+    font-weight: 700;
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.col-sm-3>.fa {
+    font-weight: 700;
+    color: #3b3b3b;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -773,7 +784,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(12, 9, 0, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
