@@ -122,20 +122,6 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-/*.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}*/
-
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -521,6 +507,11 @@ button {
     opacity: 1;
 }
 
+col-sm-6>a>img {
+    width: 300px;
+    height: 300px;
+}
+
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -529,7 +520,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -574,7 +565,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
 }
 
 .close-lightbox {
@@ -664,7 +654,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .cta-hero {
