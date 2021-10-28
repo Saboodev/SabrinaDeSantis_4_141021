@@ -42,8 +42,7 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
 }
 
 .bloc-lg {
@@ -256,8 +255,7 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 #bloc-1-hero h1 {
@@ -645,6 +643,7 @@ a[data-lightbox]:hover img {
 p {
     font-size: 14px;
     margin: 0 0 15px;
+    color:#3b3b3b;
 }
 
 .tight-width-whitespace {
@@ -699,6 +698,7 @@ h3 {
     font-style: italic;
     margin: auto 40px;
     padding: 0 10px;
+    color: #3b3b3b;
 }
 
 #author {
@@ -819,15 +819,13 @@ h3 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 }
 
@@ -840,19 +838,19 @@ h3 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -864,24 +862,14 @@ h3 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -891,8 +879,7 @@ h3 {
     h3,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding: 0 10px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -963,8 +950,7 @@ h3 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -981,8 +967,7 @@ h3 {
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
     .a-block {
         padding: 0 10px;
@@ -1019,8 +1004,7 @@ h3 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 }
 
